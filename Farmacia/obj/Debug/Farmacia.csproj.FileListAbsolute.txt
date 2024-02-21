@@ -1,0 +1,12 @@
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.AssemblyReference.cache
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.SuggestedBindingRedirects.cache
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.CadastroCliente.resources
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.Form1.resources
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.cache
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\leandro.dmenezes\source\repos\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
