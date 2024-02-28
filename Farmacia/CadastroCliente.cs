@@ -12,9 +12,12 @@ namespace Farmacia
 {
     public partial class CadastroCliente : Form
     {
+        DAO bd;
         public CadastroCliente()
         {
             InitializeComponent();
+            bd = new DAO(); // conectar a tela com a classe DAO
+
         }//fim do construtor
 
         private void CadastroCliente_Load(object sender, EventArgs e)
@@ -39,6 +42,25 @@ namespace Farmacia
 
         private void botaoCadastrar_Click(object sender, EventArgs e)
         {
+            int cod = Convert.ToInt32(codigo.Text);
+            string name     = nome.Text;
+            string Rg       = (rg.Text);
+            string tel      =(telefone.Text);
+            string pSaude   = PlanoSaude.Text;
+            string fPopular = FarmPopular.Text;
+            string Prod     = Produtos.Text;
+
+            bd.Inserir(cod, name, Rg, tel, pSaude, fPopular, Prod);// inserindo no BD
+
+
+            codigo.Text = "";
+            nome.Text = "";
+            rg.Text = "";
+            telefone.Text = "";
+            PlanoSaude.Text = "";
+            FarmPopular.Text = "";
+
+
 
         }//fim do botão cadastrar
 

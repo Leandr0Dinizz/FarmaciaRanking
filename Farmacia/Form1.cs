@@ -28,7 +28,10 @@ namespace Farmacia
             cad.ShowDialog();//Tela cadastrar
         }//fim cadastrar
 
-
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Consultar con = new Consultar();//conexao com o BD
+            con.ShowDialog();//mostrar TELA
+        }//fim do CONSULTAR CONSULTAR CONSULTAR
     }//fim class
 }// fim project

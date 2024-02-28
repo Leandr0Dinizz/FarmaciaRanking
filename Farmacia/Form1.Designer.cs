@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.CadastroProduto = new System.Windows.Forms.Button();
             this.Ranking = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CadastroCliente
@@ -90,6 +91,20 @@
             this.Ranking.Text = "Ranking";
             this.Ranking.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(260, 262);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(152, 31);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Consultar Produto";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -97,6 +112,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(522, 519);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Ranking);
             this.Controls.Add(this.CadastroProduto);
             this.Controls.Add(this.label1);
@@ -115,6 +131,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button CadastroProduto;
         private System.Windows.Forms.Button Ranking;
+        private System.Windows.Forms.Button button1;
     }
 }
 
